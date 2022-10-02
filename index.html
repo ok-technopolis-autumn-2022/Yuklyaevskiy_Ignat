@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>todos app</title>
+  </head>
+  <body>
+    <div>
+      <h1>todos</h1>
+      <div>
+        <form action="#">
+          <div>
+            <input
+              type="text"
+              name="newInfo"
+              placeholder="What needs to be done"
+            />
+            <button>Add Task</button>
+          </div>
+          <ul>
+            <li>
+              <input type="checkbox" name="element" value="" />
+              <p>HTML</p>
+            </li>
+            <li>
+              <input checked type="checkbox" name="element" value="" />
+              <p>CSS</p>
+            </li>
+            <li>
+              <input type="checkbox" name="element" value="" />
+              <p>JS</p>
+            </li>
+            <li>
+              <input type="checkbox" name="element" value="" />
+              <p>JS tools</p>
+            </li>
+          </ul>
+        </form>
+        <footer>
+          <div>3 items left</div>
+          <div>
+            <label>
+              All
+              <input type="radio" name="switch" checked />
+            </label>
+            <label>
+              Active
+              <input type="radio" name="switch" />
+            </label>
+            <label>
+              Completed
+              <input type="radio" name="switch" />
+            </label>
+          </div>
+          <button>Clear completed</button>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
