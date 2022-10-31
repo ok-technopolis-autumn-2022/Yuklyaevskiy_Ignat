@@ -26,35 +26,58 @@
         </div>
         <ul>
           <li>
-            <button>done</button>
-            HTML
+            <label>
+              <input type="checkbox" name="isDone" />
+              HTML
+            </label>
             <button>delete</button>
           </li>
           <li>
-            <button>done</button>
-            CSS
+            <label>
+              <input type="checkbox" name="isDone" />
+              CSS
+            </label>
             <button>delete</button>
           </li>
           <li>
-            <button>done</button>
-            JS
+            <label>
+              <input type="checkbox" name="isDone" />
+              JS
+            </label>
             <button>delete</button>
           </li>
           <li>
-            <button>done</button>
-            JS tools
+            <label>
+              <input type="checkbox" name="isDone" />
+              JS tools
+            </label>
             <button>delete</button>
           </li>
-          <footer>
-            <p>3 items left</p>
-            <form action="#">
-              <input type="radio" name="selector" value="All" />
-              <input type="radio" name="selector" value="Active" />
-              <input type="radio" name="selector" value="Completed" />
-            </form>
-            <button>Clear completed</button>
-          </footer>
         </ul>
+        <footer>
+          <p>3 items left</p>
+          <nav>
+            <input
+              aria-label="Показать все задания"
+              type="radio"
+              name="selector"
+              value="All"
+            />
+            <input
+              aria-label="Показать действующие задания"
+              type="radio"
+              name="selector"
+              value="Active"
+            />
+            <input
+              aria-label="Показать завершённые задания"
+              type="radio"
+              name="selector"
+              value="Completed"
+            />
+          </nav>
+          <button>Clear completed</button>
+        </footer>
       </div>
     </div>
   </body>
